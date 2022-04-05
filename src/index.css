@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/* base styles */
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background: #570861;
+  color: #fff;
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  .card-grid {
+    width: 90%;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .card-grid {
+    padding-left: 31px;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .card-grid {
+    padding-left: 19px;
+  }
+}
